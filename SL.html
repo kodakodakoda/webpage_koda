@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Split Learning over Wireless</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+  <!-- Academicons -->
+  <link rel="stylesheet" href="css/academicons.min.css" />
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Webpage of Yusuke Koda</span>
+      <!-- <span class="d-none d-lg-block">
+        <img class="img-profile" src="img/profile_koda.jpg" alt="">
+      </span> -->
+      <!-- <span class="d-none d-lg-block">Webpage of Yusuke Koda</span> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="index.html#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="index.html#reseach-interest">Research Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="index.html#publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="index.html#awards">Awards and Grants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="index.html#activity">Academic Activities</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center">
+      <div class="w-100">
+        <h1 class="mb-5" >Split Learning over Wireless
+        </h1>
+        <div class="mb-5">
+          <h2 class="mb-5">Communication-efficient multimodal split learning for mmWave received power prediction</h2> 
+          <div  style="text-align:center;" class="mb-4">
+            <img class="pc" src="img/SL/SL.png" width="460" height="428" align="left"vspace=10 hspace=10>
+            <img class="sp" src="img/SL/SL.png" vspace=10>
+            <iframe class="pc" src="https://drive.google.com/file/d/1Y54v3DY9DOQcSkMIHg7vB5exhq6Dgpkg/preview" width="550" height="412"></iframe>
+            <!-- <iframe class="sp" src="https://drive.google.com/file/d/1KUJibK8ePMMtVl52Osm4eqRQPkEmscK3/preview" style = "max-width: 100%;"></iframe> -->
+          <br clear="left">
+          </div>
+          <div class="mb-4">
+            The goal of this study is to improve the accuracy of millimeter wave received power prediction by utilizing camera images and radio frequency (RF) signals, while gathering image inputs in a communication-efficient and privacy-preserving manner. 
+            To this end, we proposed a distributed multimodal machine learning (ML) framework, coined multimodal split learning (MultSL), in which a large neural network (NN) is split into two wirelessly connected segments. The upper segment combines images and received powers for future received power prediction, whereas the lower segment extracts features from camera images and compresses its output to reduce communication costs and privacy leakage. Experimental evaluation corroborated that MultSL achieves higher accuracy than the baselines utilizing either images or RF signals. Remarkably, without compromising accuracy, compressing the lower segment output by 16x yields 16x lower communication latency and 2.8% less privacy leakage compared to the case without compression.
+          </div>
+          <div>
+            <b>Publications</b> 
+            <li>
+              <u>Y. Koda</u>, J. Park, M. Bennis, K. Yamamoto, T. Nishio, M. Morikura, and K. Nakashima,
+              “Communication-efficient multimodal split learning for mmWave received power prediction,” IEEE
+              Communications Letters, vol. 24, no. 6, pp. 1284-1288, Jun. 2020.
+              (IEEE Xplore,
+              <a href="https://ieeexplore.ieee.org/document/9026781" target="_blank">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>;
+              Arxiv preprint: <a href="https://arxiv.org/abs/2003.00645" target="_blank">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>)
+            </li>
+          </div>
+        </div>
+    </section>
+
+
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
